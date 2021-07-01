@@ -12,7 +12,7 @@ public class TestDemo {
 	do {
 		
 	System.out.println("Enter Choice");
-	System.out.println("1.Show Balance\n2.Transfer Money\n3.Receive Money");
+	System.out.println("1.Show Balance\n2.Transfer Money\n3.Receive Money\n4:Exit");
 	int ch=sc.nextInt();
 	
 	switch(ch) {
@@ -22,15 +22,14 @@ public class TestDemo {
 			break;
 	case 3:d.Receive();
 			break;
+	case 4:System.exit(0);
 	}
 	System.out.println("To continue enter 1");
 	 con=sc.nextInt();
 	}
 	while(con==1);
-	
+	}
 
 	
-	
-	}
 
 }
